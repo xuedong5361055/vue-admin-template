@@ -40,7 +40,7 @@ export const constantRoutes = [
         path: 'table',
         name: 'Table',
         component: () => import('@/views/table/index'),
-        meta: { title: '表格', icon: 'table' }
+        meta: { title: '表单', icon: 'table' }
       }
     ]
   },
@@ -64,7 +64,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'https://www.baidu.com',
-        meta: { title: 'External Link', icon: 'link' }
+        meta: { title: '外部链接', icon: 'link' }
       }
     ]
   },
